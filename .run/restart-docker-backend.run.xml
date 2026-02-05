@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration name="restart-backend" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+        <deployment type="docker-compose.yml">
+            <settings>
+                <option name="commandLineOptions" value="--build" />
+                <option name="sourceFilePath" value="docker-compose.yml" />
+                <option name="upDetach" value="false" />
+                <option name="upForceRecreate" value="true" />
+            </settings>
+        </deployment>
+        <method v="2">
+            <option name="Gradle.BeforeRunTask" enabled="true" tasks="bootJar" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+        </method>
+    </configuration>
+</component>
